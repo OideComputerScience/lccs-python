@@ -1,7 +1,7 @@
 # Event: LCCS Python Fundamental Skills Evening Workshop
-# Date: Mar 2023
-# Author: PDST Computer Science
-# eMail: computerscience@pdst.ie
+# Date: Feb 2026
+# Author: OIDE Computer Science
+# eMail: computerscience@oide.ie
 # Purpose: Dictionary Programming Exercises 7.1, Python manual (page 263)
 # Q1 starter code
 
