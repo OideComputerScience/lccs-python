@@ -1,5 +1,5 @@
-#PDST Computer Science
-#Jan 2022
+#LCCS computerscience@oide.ie
+#Feb 2026 
 #Nested Dictionary - Acronyms
 
 acronyms={'Gaeilge':{'GRMA': 'Go Raibh Maith Agat',

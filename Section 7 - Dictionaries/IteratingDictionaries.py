@@ -1,3 +1,7 @@
+#As of Python 3.7 dictionaries are ordered. What this means is that the order of the keys will not change.
+#Though they are ordered, dictionaries are not accessible via numerical indexes, instead we will use the ‘for k in d’ methods
+#to access dictionaries iteratively.
+
 Irish={'GRMA':"Go Raibh Maith Agat","OMD":"O Mo Dhia","GOA":"Gaire Os Ard","MGL":"Maith Go Leor"}
 
 
@@ -9,7 +13,7 @@ acronyms={'Irish':{'GRMA':"Go Raibh Maith Agat","OMD":"O Mo Dhia","GOA":"Gaire O
 # two main ways of iterating through the elements in the dictionary
 # one gets the keys
 
-for item in Irish:
+for item in Irish:#for item in means go through each item in the dictionary. 
     print(item)
 
 
@@ -27,13 +31,13 @@ for item in acronyms:
 
 # Let's try to find all the acronyms in our dictionary - we will iterate first over the irish english german dictionaries
 # inside this we will iterate through the elements
-# try this
+# try this (it will not give us what we want)
 for item in acronyms:
     for thing in item:
         print(thing)
 
 
-# we wanted the acronyms. we didn't get it. the thing loop iterates over the string item!
+# we wanted the acronyms. we didn't get it. the "thing" loop iterates over the string item!
 
 for item in acronyms:
     print(acronyms[item])
